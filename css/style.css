@@ -1,0 +1,654 @@
+html {
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family:"Jaldi", "Kantumruy Pro", sans-serif;
+background-color: #EAE5D6;
+overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+margin: 0;
+padding: 0;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+.contenitore {
+max-width: 1325px; 
+margin: 0 auto; 
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5A6B3A;
+    position: relative;
+    padding: 2px;
+    
+    
+}
+
+header p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 45px;
+    padding-left: 16px;
+}
+
+header nav ul{
+    font-family: "Istok web";
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 16px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+header nav a:hover{
+    color: #7d974c;
+}
+
+.testata{
+    position: relative;
+}
+
+.titolo_testata{
+position: absolute;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+width: 100%;
+height: 100%;
+font-family: "Kantumruy Pro";
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+.copertina img{
+    width: 100%;
+    height: 602px;
+    object-fit: cover;
+}
+
+.primo h1{
+    font-size: 130px;
+    line-height: 102%;
+    font-weight: bold;
+}
+
+.primo p{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.sotto{
+    border: 7px solid #496231;
+    border-radius: 30px;
+    margin: 35px;
+    padding: 21px 32px;
+}
+.sottotitolo{
+    position: relative;
+    font-family: "Kantumruy Pro";
+    color: #533113;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 96%;
+}
+
+.card_home{
+    max-width: 1317px;
+    margin: 35px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+}
+.card {
+    background-color: #80914B;
+    display: flex;
+    gap: 15px;
+    
+    border-radius: 16px;
+    padding: 16px;
+    
+}
+.full-card {
+    grid-column: 1 / span 2;
+}
+
+.preview, .descrizione {
+    width: 50%;   
+}
+
+.descrizione h2 {
+    font-family: "Kantumruy Pro";
+    font-size: 30px;
+    line-height: 96%;
+    padding: 5px 10px;
+    
+   }
+
+   .descrizione h2 a{
+    color: white;
+    text-decoration: none;
+   }
+
+.descrizione p{
+    font-family: "Jaldi";
+    font-size: 25px;
+    line-height: 105%;
+    padding: 5px 10px;
+    color: #fff;
+  
+}
+
+.preview img {
+    border-radius: 8px;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*pagina parchi*/
+    .titolo_sezioni{
+    color: #361C07;
+    width: 100%;
+    height: 100%;
+    font-family: "Kantumruy Pro";
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    }
+
+    .titolo_sezioni h1{
+        font-size: 100px;
+        padding: 5px;
+    }
+
+    .titolo_sezioni p{
+        font-family: "Jaldi";
+        font-size: 42px;
+        line-height: 96%;
+        padding: 10px 55px;
+        
+    }
+
+.descrizione-2 h2 {
+    font-family: "Kantumruy Pro";
+    font-size: 30px;
+    line-height: 96%;
+    padding: 45px 10px 2px;
+   
+}
+
+.descrizione-2 h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.descrizione-2 p{
+    font-family: "Jaldi";
+    font-size: 25px;
+    line-height: 105%;
+    padding: 5px 10px;
+    width: 300px;
+    color: white;
+}
+
+.full-card {
+    grid-column: 1 / span 2;
+    background-color: #80914B;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    
+}
+
+.full-card .descrizione {
+    padding: 15px;
+    
+}
+.full-card .descrizione h2 {
+   font-size: 60px;
+    
+}
+.full-card .descrizione p {
+    font-size: 40px;
+     
+}
+
+/*overflow*/
+
+.descrizione-2-o h2{
+    font-family: "Kantumruy Pro";
+    font-size: 30px;
+    line-height: 96%;
+    padding: 8px;
+    color: white;
+}
+
+.descrizione-2-o h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.overflow-box p{
+    font-family: "Jaldi";
+    font-size: 25px;
+    line-height: 105%;
+    padding: 12px 10px;
+    width: 350px;
+    height: 150px;
+    margin-left: 10px;
+    background-color: #AEC36D;
+    border-radius: 8px;
+    overflow: auto;
+    color: white;
+}
+
+.descrizione-2-o1 h2{
+    font-family: "Kantumruy Pro";
+    font-size: 30px;
+    line-height: 96%;
+    padding: 12px;
+    color: white; 
+}
+
+.descrizione-2-o1 h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.overflow-box-1 p{
+    font-family: "Jaldi";
+    font-size: 25px;
+    line-height: 105%;
+    padding: 12px 10px;
+    margin-left: 10px;
+    width: 350px;
+    height: 150px;
+    background-color: #AEC36D;
+    border-radius: 8px;
+    overflow: auto;
+    color: white;
+}
+
+/*parchi*/
+
+.descrizione-parco{
+    font-family: "Jaldi";
+    color: #533113;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 4%;
+    padding: 10px 50px;
+}
+
+/*menù parchi*/
+
+.descrizione-menu h2{
+    font-family: "Kantumruy Pro";
+    font-size: 50px;
+    line-height: 96%;
+    padding: 55px 60px;
+    text-align: center;
+    color: white;
+}
+
+.freccia{
+    float: right;
+    padding: 5px 28px;
+}
+
+
+/*navigazione secondaria*/
+.grid-pulsanti{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 34px;
+    text-align: center;
+}
+
+.navi-secondaria button{
+    background-color: #5A6B3A;
+    border: none;
+    font-family: "Kantumruy Pro";
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+    margin: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.navi-secondaria button a{
+    text-decoration: none;
+    color: white;
+}
+
+.pulsanti-2{
+    background-color: #d9e1ca;
+    margin: 30px;
+    border: 3px solid #e4e9db;
+    
+}
+
+/*Pagine primarie*/
+
+.grid-paragrafo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+.paragrafo-sinistra h2{
+    font-family: "Kantumruy Pro";
+    color: #5A6B3A;
+    font-size: 50px;
+    padding: 5px;
+}
+.paragrafo-destra h2{
+    font-family: "Kantumruy Pro";
+    color: #5A6B3A;
+    font-size: 50px;
+    padding: 5px;
+}
+
+
+.paragrafo-sinistra p{
+    background-color: #AEC663;
+    border-radius: 20px;
+    color: #361C07;
+    font-size: 28px;
+    padding: 34px;
+    line-height: 102%;
+    
+}
+
+.sinistra img{
+    width: 550px;
+    height: 450px;
+   padding: 50px 55px;
+   
+}
+.destra img{
+    width: 600px;
+    height: 450px;
+   padding-bottom: 50px;
+  }
+
+  .paragrafo-destra p{
+    background-color: #AEC663;
+    border-radius: 20px;
+    color: #361C07;
+    font-size: 28px;
+    padding: 34px;
+    line-height: 102%;
+}
+
+.paragrafo-centrale h2{
+    font-family: "Kantumruy Pro";
+    color: #5A6B3A;
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.paragrafo-centrale p{
+    background-color: #AEC663;
+    border-radius: 20px;
+    color: #361C07;
+    font-size: 28px;
+    padding: 28px;
+    line-height: 102%;
+    margin: 30px;
+}
+
+.centro img{
+    width: 600px;
+    height: 450px;
+   padding: 30px;
+   display: block;
+   margin: auto;
+  }
+
+  .centro-full-1 img{
+    width: 600px;
+    height: 450px;
+   padding: 50px;
+   display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+  }  
+
+  .centro-full-2 img{
+    width: 540px;
+    height: 450px;
+   padding: 50px;
+   display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+  } 
+  .separa-centro img{
+    width: 60%;
+   padding: 30px;
+   display: block;
+   margin: auto;
+  }
+  .separa-sx img{
+    width: 50%;
+   padding: 5px;
+   display: block;
+   margin: auto;
+   float: right;
+  }
+
+.torna-indietro img{
+    background-color: #7d974c;
+    width: 5%;
+    height: 20%;
+    padding: 10px 10px;
+    margin: 30px;
+    border-radius: 20px;
+  
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5A6B3A;
+    position: relative;
+    padding: 10px;
+   
+    
+}
+
+footer p{
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+footer nav{
+    font-family: "Istok web";
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 25px;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+footer nav a:hover{
+    color: #7d974c;
+}
+
+@media screen and (max-width: 768px) {
+    header p{
+        font-size: 30px;
+        padding: 16px;
+    }
+  header nav ul{
+    font-size: 20px;
+    padding: 26px;
+  } 
+  .primo{
+    padding: 30px;
+  }
+  .primo h1{
+    font-size: 80px;
+  }
+  .primo p{
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .sottotitolo{
+ font-size: 20px;
+}
+
+.grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.card {
+    flex-direction: column;
+}
+.full-card {
+    grid-column: 1;
+}
+
+.preview, .descrizione, .descrizione-2, .descrizione-menu, .descrizione-parco, .paragrafo-centrale, .paragrafo-destra, .paragrafo-sinistra {
+    width: 100%;
+}
+
+.descrizione-2 h2{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.titolo_sezioni p{
+    width: 500px;
+}
+
+.overflow-box p{
+    width: 500px;
+}
+.overflow-box-1 p{
+    width: 460px;
+}
+.descrizione-menu h2{
+    float: left;
+}
+
+.descrizione-parco{
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.grid-paragrafo {
+    grid-template-columns: repeat(1, 1fr);
+}
+.ded, .sis h2{
+    font-size: 40px;
+    padding: 30px;
+}
+
+.sis p{
+    font-size: 30px;
+    padding: 30px;
+    width: 500px;
+    margin: 20px;
+    margin-top: -15px;
+}
+
+.ded p{
+    font-size: 30px;
+    padding: 30px;
+    width: 500px;
+    margin-top: -15px;
+}
+
+.sinistra, .centro, .centro-full-1, .centro-full-2, .separa-centro img{
+    width: 530px;
+    object-fit: cover;
+}
+
+.destra{
+    width: 553px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.paragrafo-sinistra h2{
+    padding: 40px;
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+.paragrafo-sinistra p{
+    width: 480px;
+    padding: 30px;
+    margin-left: 30px;
+}
+.paragrafo-centrale h2{
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+
+
+.grid-pulsanti{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.navi-secondaria button{
+    font-size: 25px;
+    margin: 20px;
+  
+}
+
+.pulsanti-2{
+    margin: 5px; 
+}
+
+footer p{
+    font-size: 30px;
+    padding: 16px;
+}
+footer nav{
+font-size: 20px;
+padding: 26px;
+} 
+
+}
