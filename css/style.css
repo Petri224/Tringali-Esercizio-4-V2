@@ -161,6 +161,9 @@ justify-content: center;
     color: #fff;
   
 }
+.descrizione h2 a:hover{
+    color: #aecb56;
+}
 
 .preview img {
     border-radius: 8px;
@@ -199,7 +202,7 @@ justify-content: center;
     font-family: "Kantumruy Pro";
     font-size: 30px;
     line-height: 96%;
-    padding: 45px 10px 2px;
+    padding: 10px;
    
 }
 
@@ -212,9 +215,14 @@ justify-content: center;
     font-family: "Jaldi";
     font-size: 25px;
     line-height: 105%;
-    padding: 5px 10px;
+    padding: 10px;
     width: 300px;
     color: white;
+    margin-top: -15px;
+}
+
+.descrizione-2 h2 a:hover{
+    color: #aecb56;
 }
 
 .full-card {
@@ -241,7 +249,7 @@ justify-content: center;
      
 }
 
-/*overflow*/
+/*flora e fauna e attività*/
 
 .descrizione-2-o h2{
     font-family: "Kantumruy Pro";
@@ -256,45 +264,18 @@ justify-content: center;
     color: white;
 }
 
-.overflow-box p{
+.descrizione-2-o p{
     font-family: "Jaldi";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 105%;
-    padding: 12px 10px;
-    width: 350px;
-    height: 150px;
-    margin-left: 10px;
-    background-color: #AEC36D;
-    border-radius: 8px;
-    overflow: auto;
+    padding: 10px;
+    width: 300px;
     color: white;
+    margin-top: -15px;
 }
 
-.descrizione-2-o1 h2{
-    font-family: "Kantumruy Pro";
-    font-size: 30px;
-    line-height: 96%;
-    padding: 12px;
-    color: white; 
-}
-
-.descrizione-2-o1 h2 a{
-    text-decoration: none;
-    color: white;
-}
-
-.overflow-box-1 p{
-    font-family: "Jaldi";
-    font-size: 25px;
-    line-height: 105%;
-    padding: 12px 10px;
-    margin-left: 10px;
-    width: 350px;
-    height: 150px;
-    background-color: #AEC36D;
-    border-radius: 8px;
-    overflow: auto;
-    color: white;
+.descrizione-2-o h2 a:hover{
+    color: #aecb56;
 }
 
 /*parchi*/
@@ -314,16 +295,25 @@ justify-content: center;
     font-family: "Kantumruy Pro";
     font-size: 50px;
     line-height: 96%;
-    padding: 55px 60px;
+   
     text-align: center;
     color: white;
 }
 
 .freccia{
     float: right;
-    padding: 5px 28px;
+    padding-right: 30px;
+    padding-top: 50px;
+    
+    
+    
 }
 
+.freccia img:hover{
+    transform: scale(2);
+    transition: transform 0.3s ease;
+    
+}
 
 /*navigazione secondaria*/
 .grid-pulsanti{
@@ -357,6 +347,10 @@ justify-content: center;
     border: 3px solid #e4e9db;
     
 }
+.navi-secondaria button a:hover{
+    color: #aecb56;
+}
+
 
 /*Pagine primarie*/
 
