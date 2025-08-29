@@ -62,6 +62,17 @@ header a{
 
 header nav a:hover{
     color: #7d974c;
+    transition: 0.3s;
+}
+
+header p a:hover{
+    color: #b9db7b;
+    transition: 0.3s;
+}
+
+.separatore a{
+    font-weight: 600;
+    color: #c4e073;
 }
 
 .testata{
@@ -88,13 +99,13 @@ justify-content: center;
 }
 
 .primo h1{
-    font-size: 130px;
-    line-height: 102%;
+    font-size: 80px;
+    line-height: 100%;
     font-weight: bold;
 }
 
 .primo p{
-    font-size: 55px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -109,37 +120,62 @@ justify-content: center;
     font-family: "Kantumruy Pro";
     color: #533113;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 96%;
+    text-align: center;
 }
 
-.card_home{
-    max-width: 1317px;
-    margin: 35px;
-}
 
-.grid {
+/*schermata di selezione*/
+
+.grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 34px;
+    margin: 35px;
 }
-.card {
-    background-color: #80914B;
+
+.preview-1 img{
+    object-fit: cover;
+max-width: 450px;
+border-radius: 21.5px;
+}
+
+.preview img{
+    object-fit: contain;
+max-width: 450px;
+border-radius: 21.5px;
+
+}
+
+.card{
     display: flex;
-    gap: 15px;
-    
-    border-radius: 16px;
-    padding: 16px;
-    
+   justify-content: center;
+align-items: center;
+background-color: #80914B;
+padding: 20px;
+border-radius: 43px;
+
+
 }
+
 .full-card {
     grid-column: 1 / span 2;
 }
 
-.preview, .descrizione {
-    width: 50%;   
+.preview-2 img{
+    object-fit: cover;
+max-width: 200px;
+height: 450px;
+border-radius: 21.5px;
 }
 
+.preview-3 img{
+    object-fit: cover;
+max-width: 200px;
+height: 450px;
+border-radius: 21.5px;
+}
 .descrizione h2 {
     font-family: "Kantumruy Pro";
     font-size: 30px;
@@ -155,332 +191,193 @@ justify-content: center;
 
 .descrizione p{
     font-family: "Jaldi";
-    font-size: 25px;
+    font-size: 18px;
     line-height: 105%;
     padding: 5px 10px;
     color: #fff;
+    
   
 }
 .descrizione h2 a:hover{
     color: #aecb56;
+    transition: 0.3s;
 }
 
-.preview img {
-    border-radius: 8px;
-    height: 280px;
-    width: 100%;
-    object-fit: cover;
+.preview a:hover{
+    opacity: 0.8;
+    transition: 0.3s;
 }
-
-/*pagina parchi*/
-    .titolo_sezioni{
-    color: #361C07;
-    width: 100%;
-    height: 100%;
-    font-family: "Kantumruy Pro";
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.preview-1, .preview-2 a:hover{
+    opacity: 0.8;
+    transition: 0.3s;
     
+}
+
+
+/*selezione 4x4*/
+    .testo-centrale{
+      text-align: center;
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-bottom: 45px;
     }
 
-    .titolo_sezioni h1{
-        font-size: 100px;
-        padding: 5px;
+    .testo-centrale h3{
+        color: #533113;
+        font-size: 80px;
+        line-height: 130%;
     }
 
-    .titolo_sezioni p{
-        font-family: "Jaldi";
-        font-size: 42px;
+     .testo-centrale p{
+        color: #533113;
+        font-size: 25px;
         line-height: 96%;
-        padding: 10px 55px;
-        
-    }
+        }
 
-.descrizione-2 h2 {
-    font-family: "Kantumruy Pro";
-    font-size: 30px;
-    line-height: 96%;
-    padding: 10px;
-   
-}
-
-.descrizione-2 h2 a{
-    text-decoration: none;
-    color: white;
-}
-
-.descrizione-2 p{
-    font-family: "Jaldi";
-    font-size: 25px;
-    line-height: 105%;
-    padding: 10px;
-    width: 300px;
-    color: white;
-    margin-top: -15px;
-}
-
-.descrizione-2 h2 a:hover{
-    color: #aecb56;
-}
-
-.full-card {
-    grid-column: 1 / span 2;
-    background-color: #80914B;
-    display: flex;
-    gap: 10px;
-    color: #fff;
-    border-radius: 16px;
-    padding: 16px;
-    
-}
-
-.full-card .descrizione {
-    padding: 15px;
-    
-}
-.full-card .descrizione h2 {
-   font-size: 60px;
-    
-}
-.full-card .descrizione p {
-    font-size: 40px;
-     
-}
-
-/*flora e fauna e attività*/
-
-.descrizione-2-o h2{
-    font-family: "Kantumruy Pro";
-    font-size: 30px;
-    line-height: 96%;
-    padding: 8px;
-    color: white;
-}
-
-.descrizione-2-o h2 a{
-    text-decoration: none;
-    color: white;
-}
-
-.descrizione-2-o p{
-    font-family: "Jaldi";
-    font-size: 20px;
-    line-height: 105%;
-    padding: 10px;
-    width: 300px;
-    color: white;
-    margin-top: -15px;
-}
-
-.descrizione-2-o h2 a:hover{
-    color: #aecb56;
-}
-
-/*parchi*/
-
-.descrizione-parco{
-    font-family: "Jaldi";
-    color: #533113;
-    font-size: 30px;
-    line-height: 110%;
-    letter-spacing: 4%;
-    padding: 10px 50px;
-}
-
-/*menù parchi*/
-
-.descrizione-menu h2{
-    font-family: "Kantumruy Pro";
-    font-size: 50px;
-    line-height: 96%;
-   
-    text-align: center;
-    color: white;
-}
-
-.freccia{
-    float: right;
-    padding-right: 30px;
-    padding-top: 50px;
-    
-    
-    
-}
-
-.freccia img:hover{
-    transform: scale(2);
-    transition: transform 0.3s ease;
-    
-}
-
-/*navigazione secondaria*/
-.grid-pulsanti{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 34px;
-    text-align: center;
-}
-
-.navi-secondaria button{
-    background-color: #5A6B3A;
-    border: none;
-    font-family: "Kantumruy Pro";
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 30px;
-    padding: 30px;
-    margin: 60px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-.navi-secondaria button a{
-    text-decoration: none;
-    color: white;
-}
-
-.pulsanti-2{
-    background-color: #d9e1ca;
-    margin: 30px;
-    border: 3px solid #e4e9db;
-    
-}
-.navi-secondaria button a:hover{
-    color: #aecb56;
-}
-
-
-/*Pagine primarie*/
-
-.grid-paragrafo{
+      .grid-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   
+    gap: 34px;
+    margin: 35px;
+}  
+
+/*pulsanti di selezione argomento*/
+
+.pulsanti-menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cad7a4;
+    padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
-.paragrafo-sinistra h2{
-    font-family: "Kantumruy Pro";
-    color: #5A6B3A;
-    font-size: 50px;
-    padding: 5px;
-}
-.paragrafo-destra h2{
-    font-family: "Kantumruy Pro";
-    color: #5A6B3A;
-    font-size: 50px;
-    padding: 5px;
+.button {
+  background-color: #80914B;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
+.button:hover{
+    background-color: #496231;
+    transition: 0.3s;
+}
 
-.paragrafo-sinistra p{
+/*contenuto*/
+
+.desc-generica{
+    max-width: 500px;
+    padding: 22px;
     background-color: #AEC663;
+    margin: 55px;
     border-radius: 20px;
-    color: #361C07;
-    font-size: 28px;
-    padding: 34px;
-    line-height: 102%;
-    
 }
 
-.sinistra img{
-    width: 550px;
-    height: 450px;
-   padding: 50px 55px;
-   
-}
-.destra img{
-    width: 600px;
-    height: 450px;
-   padding-bottom: 50px;
-  }
-
-  .paragrafo-destra p{
-    background-color: #AEC663;
-    border-radius: 20px;
-    color: #361C07;
-    font-size: 28px;
-    padding: 34px;
-    line-height: 102%;
-}
-
-.paragrafo-centrale h2{
-    font-family: "Kantumruy Pro";
+.desc-generica h3{
+    font-size: 30px;
     color: #5A6B3A;
-    font-size: 50px;
-    padding: 5px;
-    text-align: center;
 }
-.paragrafo-centrale p{
-    background-color: #AEC663;
-    border-radius: 20px;
+
+.desc-generica p{
+    font-size: 20px;
     color: #361C07;
-    font-size: 28px;
-    padding: 28px;
-    line-height: 102%;
-    margin: 30px;
 }
 
-.centro img{
-    width: 600px;
-    height: 450px;
-   padding: 30px;
-   display: block;
-   margin: auto;
-  }
-
-  .centro-full-1 img{
-    width: 600px;
-    height: 450px;
-   padding: 50px;
-   display: flex;
-    justify-content: space-between;
-    object-fit: cover;
-  }  
-
-  .centro-full-2 img{
-    width: 540px;
-    height: 450px;
-   padding: 50px;
-   display: flex;
-    justify-content: space-between;
-    object-fit: cover;
-  } 
-  .separa-centro img{
-    width: 60%;
-   padding: 30px;
-   display: block;
-   margin: auto;
-  }
-  .separa-sx img{
-    width: 50%;
-   padding: 5px;
-   display: block;
-   margin: auto;
-   float: right;
-  }
-
-.torna-indietro img{
-    background-color: #7d974c;
-    width: 5%;
-    height: 20%;
-    padding: 10px 10px;
-    margin: 30px;
-    border-radius: 20px;
-  
-    
+.desc-generica-centro{
+     text-align: center;
+     padding-top: 20px;
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-bottom: 20px;
+      background-color: #AEC663;
+      margin: 44px;
+      border-radius: 20px;
 }
 
+.desc-generica-centro h3{
+    font-size: 30px;
+    color: #5A6B3A;
+}
 
+.desc-generica-centro p{
+    font-size: 23px;
+    color: #361C07;
+}
+
+.testo-a-sinistra{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+        }
+        .immagine-destra{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .immagine-destra img{
+            max-width:600px;
+            padding: 12px;
+         }
+
+         .immagine-centrale{
+            display: flex;
+            justify-content: center;
+            padding: 44px;
+         }
+
+         .immagine-centrale img{
+            object-fit: cover;
+            max-width: 400px;
+
+         }
+
+          .immagine-centrale-c{
+            display: flex;
+            justify-content: center;
+            padding: 44px;
+         }
+
+         .immagine-centrale-c img{
+            object-fit: cover;
+            max-width: 800px;
+
+         }
+        
+
+         .testo-a-destra{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .immagine-sinistra{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .immagine-destra-resp{
+            display: none;
+        }
+        .immagine-sinistra img{
+            max-width: 600px;
+            padding: 12px;
+         }
+
+/*footer*/
 footer {
     display: flex;
     justify-content: space-between;
     background-color: #5A6B3A;
     position: relative;
-    padding: 10px;
-   
-    
+    padding: 10px;   
 }
 
 footer p{
@@ -508,7 +405,7 @@ footer nav a:hover{
     color: #7d974c;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     header p{
         font-size: 30px;
         padding: 16px;
@@ -521,11 +418,19 @@ footer nav a:hover{
     padding: 30px;
   }
   .primo h1{
-    font-size: 80px;
+    font-size: 50px;
   }
   .primo p{
-    font-size: 30px;
+    font-size: 18px;
     margin: 10px;
+  }
+
+  .preview-2 img{
+    max-width: 600px;
+  }
+  .preview-3 img{
+    max-width: 600px;
+    height: 600px;
   }
 
   .sottotitolo{
@@ -544,7 +449,7 @@ footer nav a:hover{
 }
 
 .preview, .descrizione, .descrizione-2, .descrizione-menu, .descrizione-parco, .paragrafo-centrale, .paragrafo-destra, .paragrafo-sinistra {
-    width: 100%;
+    max-width: 100%;
 }
 
 .descrizione-2 h2{
@@ -556,12 +461,6 @@ footer nav a:hover{
     width: 500px;
 }
 
-.overflow-box p{
-    width: 500px;
-}
-.overflow-box-1 p{
-    width: 460px;
-}
 .descrizione-menu h2{
     float: left;
 }
@@ -575,74 +474,109 @@ footer nav a:hover{
 .grid-paragrafo {
     grid-template-columns: repeat(1, 1fr);
 }
-.ded, .sis h2{
-    font-size: 40px;
-    padding: 30px;
+
+.testo-a-destra, .testo-a-sinistra{
+    display: inline;
 }
 
-.sis p{
-    font-size: 30px;
-    padding: 30px;
-    width: 500px;
-    margin: 20px;
-    margin-top: -15px;
-}
-
-.ded p{
-    font-size: 30px;
-    padding: 30px;
-    width: 500px;
-    margin-top: -15px;
-}
-
-.sinistra, .centro, .centro-full-1, .centro-full-2, .separa-centro img{
-    width: 530px;
-    object-fit: cover;
-}
-
-.destra{
-    width: 553px;
-    object-fit: cover;
-    padding: 30px;
-}
-
-.paragrafo-sinistra h2{
-    padding: 40px;
-    font-size: 40px;
-    margin-bottom: -30px;
-}
-.paragrafo-sinistra p{
-    width: 480px;
-    padding: 30px;
-    margin-left: 30px;
-}
-.paragrafo-centrale h2{
-    font-size: 40px;
-    margin-bottom: -15px;
+.immagine-sinistra{
+    display: none;
 }
 
 
-.grid-pulsanti{
-    grid-template-columns: repeat(1, 1fr);
-}
 
-.navi-secondaria button{
-    font-size: 25px;
-    margin: 20px;
-  
-}
+ .immagine-destra-resp{
+            display: flex;
+            justify-content: flex-start;
+        }
 
-.pulsanti-2{
-    margin: 5px; 
-}
+        .immagine-destra-resp img{
+            max-width:80%;
+            padding: 55px;
+         }
+
+ .button{
+    font-size: 18px;
+ }   
 
 footer p{
-    font-size: 30px;
-    padding: 16px;
+    font-size: 20px;
+    padding: 5px;
 }
 footer nav{
 font-size: 20px;
-padding: 26px;
+
 } 
 
+}
+@media screen and (max-width: 780px) {
+    .preview-2 img{
+    max-width: 510px;
+  }
+  .preview-3 img{
+    max-width: 600px;
+    height: 600px;
+  }
+  .immagine-centrale-c img{
+            object-fit: cover;
+            max-width: 650px;
+
+         }
+}
+
+
+@media screen and (max-width: 600px) {
+     header p{
+        font-size: 20px;
+        padding: 16px;
+    }
+  header nav ul{
+    font-size: 12px;
+    padding: 26px;
+  } 
+  .testo-centrale h3{
+    font-size: 60px;
+  }
+
+
+  .card{
+    max-width: 500px;
+  }
+
+  .preview img{
+    max-width: 300px;
+  }
+  .preview-2 img{
+    max-width: 250px;
+    height: 250px;
+  }
+  .preview-3 img{
+    max-width: 250px;
+    height: 250px;
+  }
+
+  .primo h1{
+    font-size: 40px;
+}
+  .button{
+    width: 350px;
+    font-size: 20px;
+    padding: 15px 2px;
+  }
+  .immagine-destra img{
+            max-width:380px;
+            padding: 12px;
+         }
+         .immagine-destra-resp img{
+            max-width:380px;
+            padding: 12px;
+         }
+
+          .immagine-centrale img{
+            max-width: 300px;
+            }
+             .immagine-centrale-c img{
+            max-width: 350px;
+
+         }
 }
