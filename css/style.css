@@ -99,7 +99,11 @@ justify-content: center;
 }
 
 .primo h1{
+<<<<<<< HEAD
     font-size: 80px;
+=======
+    font-size: 90px;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
     line-height: 100%;
     font-weight: bold;
 }
@@ -143,7 +147,11 @@ border-radius: 21.5px;
 
 .preview img{
     object-fit: contain;
+<<<<<<< HEAD
 max-width: 450px;
+=======
+max-width: 270px;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
 border-radius: 21.5px;
 
 }
@@ -165,15 +173,24 @@ border-radius: 43px;
 
 .preview-2 img{
     object-fit: cover;
+<<<<<<< HEAD
 max-width: 200px;
+=======
+max-width: 100%;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
 height: 450px;
 border-radius: 21.5px;
 }
 
 .preview-3 img{
     object-fit: cover;
+<<<<<<< HEAD
 max-width: 200px;
 height: 450px;
+=======
+max-width: 90%;
+
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
 border-radius: 21.5px;
 }
 .descrizione h2 {
@@ -275,7 +292,11 @@ border-radius: 21.5px;
 /*contenuto*/
 
 .desc-generica{
+<<<<<<< HEAD
     max-width: 500px;
+=======
+    width: 500px;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
     padding: 22px;
     background-color: #AEC663;
     margin: 55px;
@@ -323,8 +344,13 @@ border-radius: 21.5px;
             justify-content: flex-end;
         }
         .immagine-destra img{
+<<<<<<< HEAD
             max-width:600px;
             padding: 12px;
+=======
+            max-width:80%;
+            padding: 55px;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
          }
 
          .immagine-centrale{
@@ -335,6 +361,7 @@ border-radius: 21.5px;
 
          .immagine-centrale img{
             object-fit: cover;
+<<<<<<< HEAD
             max-width: 400px;
 
          }
@@ -352,6 +379,12 @@ border-radius: 21.5px;
          }
         
 
+=======
+            width: 80%;
+           
+         }
+
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
          .testo-a-destra{
             display: grid;
             grid-template-columns: auto auto;
@@ -367,8 +400,14 @@ border-radius: 21.5px;
             display: none;
         }
         .immagine-sinistra img{
+<<<<<<< HEAD
             max-width: 600px;
             padding: 12px;
+=======
+            max-width: 80%;
+            
+            padding: 55px;
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
          }
 
 /*footer*/
@@ -405,7 +444,11 @@ footer nav a:hover{
     color: #7d974c;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1000px) {
+=======
+@media screen and (max-width: 964px) {
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
     header p{
         font-size: 30px;
         padding: 16px;
@@ -483,8 +526,11 @@ footer nav a:hover{
     display: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d30c1982b4ef18be4e51cf9e332866edf9594b1c
  .immagine-destra-resp{
             display: flex;
             justify-content: flex-start;
